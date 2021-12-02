@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeekMenu</string>
+    <string name="str_recipe">Рецепты</string>
+    <string name="str_btn_add_to_menu">Добавить</string>
+</resources>
