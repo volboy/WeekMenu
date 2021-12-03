@@ -1,6 +1,6 @@
-package com.example.weekmenu.feature.recipes
+package com.example.weekmenu.feature.recipes.data
 
-import com.example.weekmenu.feature.recipe.Ingredient
+import com.example.weekmenu.feature.recipe.data.Ingredient
 
 data class Recipe(
     val id: Long,

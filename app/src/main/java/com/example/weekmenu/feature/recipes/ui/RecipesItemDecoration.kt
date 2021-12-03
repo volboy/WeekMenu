@@ -1,4 +1,4 @@
-package com.example.weekmenu.feature.recipes
+package com.example.weekmenu.feature.recipes.ui
 
 import android.graphics.Rect
 import android.view.View

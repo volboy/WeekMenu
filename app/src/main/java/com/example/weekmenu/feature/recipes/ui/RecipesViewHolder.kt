@@ -1,10 +1,11 @@
-package com.example.weekmenu.feature.recipes
+package com.example.weekmenu.feature.recipes.ui
 
 import android.view.View
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.weekmenu.R
+import com.example.weekmenu.feature.recipes.data.Recipe
 
 class RecipesViewHolder(view: View, chooseRecipe: RecipeOnClickListener) :
     RecyclerView.ViewHolder(view) {

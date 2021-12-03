@@ -1,4 +1,4 @@
-package com.example.weekmenu.feature.recipe
+package com.example.weekmenu.feature.recipe.data
 
 data class Ingredient(
     val id: Long,

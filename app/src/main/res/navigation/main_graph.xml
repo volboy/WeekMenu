@@ -6,12 +6,12 @@
 
     <fragment
         android:id="@+id/recipeFragment"
-        android:name="com.example.weekmenu.feature.recipe.RecipeFragment"
+        android:name="com.example.weekmenu.feature.recipe.ui.RecipeFragment"
         android:label="RecipeFragment"></fragment>
 
     <fragment
         android:id="@+id/recipesFragment"
-        android:name="com.example.weekmenu.feature.recipes.RecipesFragment"
+        android:name="com.example.weekmenu.feature.recipes.ui.RecipesFragment"
         android:label="RecipesFragment">
         <action
             android:id="@+id/action_recipesFragment_to_recipeFragment"

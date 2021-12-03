@@ -1,9 +1,10 @@
-package com.example.weekmenu.feature.recipe
+package com.example.weekmenu.feature.recipe.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.weekmenu.R
+import com.example.weekmenu.feature.recipe.data.Ingredient
 
 class IngredientsAdapter : RecyclerView.Adapter<IngredientsViewHolder>() {
 
