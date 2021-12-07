@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77775992181",
+    "project_id": "weekmenu-96475",
+    "storage_bucket": "weekmenu-96475.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77775992181:android:7e854b4820f9c110b00f3c",
+        "android_client_info": {
+          "package_name": "com.example.weekmenu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77775992181-9ht4nga5h6pplp25s3j7644gl8eh1imm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGIkbjCgxzNXQ9kyeeD0SuqGLHmf-MGf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77775992181-9ht4nga5h6pplp25s3j7644gl8eh1imm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

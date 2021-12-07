@@ -18,9 +18,13 @@ class RecipesFragment : Fragment(R.layout.fragment_recipes), RecipeOnClickListen
     private val viewModelFactory = MainViewModelFactory(AppRepository)
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+
         val recipesViewModel =
             ViewModelProvider(this, viewModelFactory)[RecipesViewModel::class.java]
-        (requireActivity() as AppCompatActivity).supportActionBar?.title = "Рецепты"
+        (requireActivity() as AppCompatActivity).supportActionBar?.let {
+            it.title = "Рецепты"
+            it.setDisplayHomeAsUpEnabled(false)
+        }
         val recipeRv = view.findViewById<RecyclerView>(R.id.frgRecipeRv)
         val recipeAdapter = RecipesAdapter(this)
         val layoutManager = LinearLayoutManager(view.context)

@@ -27,4 +27,5 @@ class RecipeFragment : Fragment(R.layout.fragment_recipe) {
         ingRv.addItemDecoration(IngredientsItemDecorator())
         ingAdapter.setItems(recipeViewModel.getRecipe(0).ingredients)
     }
+
 }

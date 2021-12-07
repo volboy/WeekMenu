@@ -2,4 +2,8 @@
     <string name="app_name">WeekMenu</string>
     <string name="str_recipe">Рецепты</string>
     <string name="str_btn_add_to_menu">Добавить</string>
+    <string name="str_login_enter_email">Enter email</string>
+    <string name="login_enter_password">Enter password</string>
+    <string name="sing_in_btn">Sing in</string>
+    <string name="sing_up_btn">Sing up</string>
 </resources>
