@@ -3,41 +3,63 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="80dp"
+    android:layout_height="96dp"
     android:background="@drawable/bg_recipe"
     android:elevation="4dp"
-    android:padding="8dp">
+    android:padding="10dp">
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/recipeImg"
-        android:layout_width="100dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="96dp"
+        android:layout_height="0dp"
         android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
+        android:scaleType="fitCenter"
         android:src="@drawable/ic_launcher_background"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/icEdit"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_edit"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/recipeTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:textSize="18sp"
+        android:layout_marginEnd="8dp"
+        android:maxLines="2"
+        android:textSize="14sp"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintBottom_toTopOf="@id/recipeSubtitle"
+        app:layout_constraintEnd_toStartOf="@id/icEdit"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@id/recipeImg"
         app:layout_constraintTop_toTopOf="@id/recipeImg"
+        app:layout_constraintVertical_chainStyle="packed"
         tools:text="Title" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/recipeSubtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="8dp"
-        android:maxLines="2"
+        android:elegantTextHeight="false"
+        android:ellipsize="end"
         android:textSize="12sp"
+        android:maxLines="2"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="@id/recipeImg"
+        app:layout_constraintEnd_toEndOf="@id/recipeTitle"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@id/recipeImg"
         app:layout_constraintTop_toBottomOf="@id/recipeTitle"
+        app:layout_constraintVertical_bias="0.0"
         tools:text="SubTitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,15 +6,13 @@ import com.example.weekmenu.feature.recipes.data.Recipe
 object AppRepository {
     val recipes = listOf(
         Recipe(
-            id = 0,
             img = "",
             title = "",
             subtitle = "",
             text = "",
             ingredients = listOf(
                 Ingredient(
-                    id = 0,
-                    img = "",
+                    id = "",
                     product = "",
                     quantity = ""
                 )
